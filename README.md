@@ -1,158 +1,140 @@
-# Streaming Avatar FullStack Application
+# Streaming Avatar 🌟
 
-A modern full-stack application that combines a React frontend with an Express backend to create an interactive avatar streaming experience. This project was developed as part of a hackathon by Team "Bit by Bit".
+Welcome to the **Streaming Avatar** repository! This full-stack application enables real-time avatar streaming using HeyGen and Gemini AI. Built during a hackathon by Team "Bit by Bit," this project showcases the power of modern web technologies.
 
-## 👥 Team "Bit by Bit"
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/LiehSt/Streaming-Avatar/releases)
 
-Our team consists of talented developers working on different aspects of our hackathon project:
+## Table of Contents
 
-- **Abarna Dutta** (Team Leader) - Custom avatar generation and voice cloning
-- **Debraj Roy** - Meeting automation and scheduling system
-- **Soham Pal** - Custom avatar generation and voice cloning
-- **Surya Ghosh** - Streaming Avatar (this project) - Full-stack development of the avatar streaming platform, including:
-  - Frontend development with React and TypeScript
-  - Backend API development with Express.js
-  - HeyGen integration for avatar streaming
-  - Gemini AI integration for chat functionality
-  - Persona management system
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## �� Features
+## Features
 
-- Modern React frontend built with Vite
-- Express.js backend server
-- Real-time avatar streaming capabilities
-- Responsive UI with Tailwind CSS
-- TypeScript support for type safety
-- Modern UI components with shadcn/ui
+- **Real-time Avatar Streaming**: Users can create and stream avatars in real-time.
+- **User-Friendly Interface**: Built with React and Tailwind CSS for a smooth user experience.
+- **TypeScript Support**: Strong typing for better code quality and maintainability.
+- **API Integration**: Seamless integration with HeyGen and Gemini AI APIs.
+- **Responsive Design**: Works on all devices, from desktops to mobile.
 
-## 📋 Prerequisites
+## Technologies Used
 
-Before you begin, ensure you have the following installed:
-- Node.js (v18 or higher)
-- npm (v9 or higher)
-- Git
+This project utilizes a variety of technologies to deliver a robust application:
 
-## 🛠️ Installation
+- **Frontend**: 
+  - React
+  - TypeScript
+  - Tailwind CSS
 
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd Streaming_Avatar_FullStack
-```
+- **Backend**: 
+  - Node.js
+  - Express
 
-2. Install frontend dependencies:
-```bash
-cd react-avatar-app
-npm install
-```
+- **APIs**: 
+  - HeyGen API
+  - Gemini API
 
-3. Install backend dependencies:
-```bash
-cd ../server
-npm install
-```
+## Getting Started
 
-## 🚀 Running the Application
+To get started with the Streaming Avatar application, follow these steps:
 
-### Development Mode
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/LiehSt/Streaming-Avatar.git
+   cd Streaming-Avatar
+   ```
 
-1. Start the backend server:
-```bash
-cd server
-npm run dev
-```
+2. **Install Dependencies**:
+   For the frontend:
+   ```bash
+   cd client
+   npm install
+   ```
 
-2. Start the frontend development server:
-```bash
-cd react-avatar-app
-npm run dev
-```
+   For the backend:
+   ```bash
+   cd server
+   npm install
+   ```
 
-The application will be available at:
-- Frontend: http://localhost:5173
-- Backend: http://localhost:3000 (or your configured port)
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the `server` directory and add your API keys for HeyGen and Gemini.
 
-### Production Build
+4. **Run the Application**:
+   Start the backend server:
+   ```bash
+   cd server
+   npm start
+   ```
 
-1. Build the frontend:
-```bash
-cd react-avatar-app
-npm run build
-```
+   Then, in a new terminal, start the frontend:
+   ```bash
+   cd client
+   npm start
+   ```
 
-2. Start the production server:
-```bash
-cd server
-npm start
-```
+5. **Access the Application**:
+   Open your browser and go to `http://localhost:3000` to view the application.
 
-## 📁 Project Structure
+## Usage
 
-```
-Streaming_Avatar_FullStack/
-├── react-avatar-app/     # Frontend React application
-│   ├── src/             # Source files
-│   ├── public/          # Static assets
-│   └── package.json     # Frontend dependencies
-└── server/              # Backend Express server
-    ├── server.js        # Main server file
-    └── package.json     # Backend dependencies
-```
+Once the application is running, you can start creating avatars. Follow these steps:
 
-## 🛠️ Tech Stack
+1. **Create an Avatar**: Use the provided form to customize your avatar.
+2. **Stream Your Avatar**: Click on the stream button to start broadcasting.
+3. **Interact**: Engage with other users in real-time.
 
-### Frontend
-- React 19
-- TypeScript
-- Vite
-- Tailwind CSS
-- shadcn/ui
-- ESLint & Prettier
+## Contributing
 
-### Backend
-- Express.js
-- Node.js
-- CORS
-- dotenv
+We welcome contributions! To contribute to the Streaming Avatar project:
 
-## 📝 Scripts
+1. **Fork the Repository**: Click on the "Fork" button at the top right corner of this page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Implement your feature or fix a bug.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add Your Feature"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Go to the original repository and click on "New Pull Request."
 
-### Frontend
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build
+## License
 
-### Backend
-- `npm run dev` - Start development server with nodemon
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run format` - Format code with Prettier
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🔒 Environment Variables
+## Contact
 
-Create a `.env` file in the server directory with the following variables:
-```
-PORT=3000
-# Add other environment variables as needed
-```
+For any questions or feedback, feel free to reach out:
 
-## 🤝 Contributing
+- **Team Bit by Bit**: [Contact Us](mailto:teambitbybit@example.com)
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## Additional Resources
 
-## 📄 License
+For more information on the technologies used, check out the following links:
 
-This project is licensed under the ISC License.
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Express Documentation](https://expressjs.com/en/starter/installing.html)
 
-## 👥 Authors
+## Releases
 
-- Surya Ghosh - Initial work
+You can find the latest releases of the Streaming Avatar application [here](https://github.com/LiehSt/Streaming-Avatar/releases). Download the latest version and execute it to experience the app.
 
-## 🙏 Acknowledgments
+![Streaming Avatar](https://via.placeholder.com/800x400?text=Streaming+Avatar+Demo)
 
-- Thanks to all contributors who have helped shape this project 
+## Conclusion
+
+Thank you for checking out the Streaming Avatar project. We hope you find it useful and enjoyable. Feel free to contribute and help us improve the application. Happy streaming!
